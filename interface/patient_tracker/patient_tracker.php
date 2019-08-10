@@ -501,11 +501,11 @@ if (!$_REQUEST['flb_table']) {
                             </td>
                         <?php } ?>
                         <td class="dehead text-center" style="max-width:150px;">
-                            <?php echo xlt('Patient'); ?>
+                            <?php echo xlt('Patients'); ?>
                         </td>
                         <?php if ($GLOBALS['ptkr_visit_reason'] == '1') { ?>
                             <td class="dehead hidden-xs text-center" name="kiosk_hide">
-                                <?php echo xlt('Reason'); ?>
+                                <?php echo xlt('Reasons'); ?>
                             </td>
                         <?php } ?>
                         <?php if ($GLOBALS['ptkr_show_encounter']) { ?>
